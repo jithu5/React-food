@@ -18,30 +18,41 @@ git clone https://github.com/jithu5/React-food.git
 cd React-food
 ```
 ### 2. Install Dependencies
-``` bash
-.....
-```
+
 #### For React Frontend
-- npm install
+``` bash
+ npm install
+ ```
 
 #### For Node Backend
-- cd backend
-- npm install
+``` bash
+ cd backend
+ npm install
+ ```
 
 ### 3. Run the Application
 
 #### Start the React Frontend
-- npm run dev
-
+``` bash
+ npm run dev
+```
 #### Start the Node Backend
-- npm install -g nodemon
-
-- cd backend
-- npm start
+``` bash
+ npm install -g nodemon
+ ```
+``` bash
+ cd backend
+ npm start
+```
 
 **If you don't have Nodemon or prefer not to use it, modify the start script in `backend/package.json`**
-- "start": "node app.js"
-- npm start
+``` bash
+ "start": "node app.js"
+ ```
+ **To Run**
+ ``` bash
+ npm start
+ ```
 
 ---
 
